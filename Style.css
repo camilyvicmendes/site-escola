@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(15, 15, 15);
     color:white;
     font-size: 18px;
     font-style: bold;
@@ -15,16 +15,20 @@ body {
 }
 
 .topico{
-    margin-right: 10cm;
+    margin-right: 20cm;
     
 }
-
-.estudantes {
-    display:flex;/* display flexível */
-    flex-wrap: wrap; /* colocar itens em sequencias até não caber mais */
- 
+.item img{
+    width: 200px;;
+    height: 200px:
 }
-
-.item {
-    margin-top: 30px; /* espaço superior de 10 pixels /*
-    
+.estudantes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 300px;
+}
