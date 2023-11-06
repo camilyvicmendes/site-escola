@@ -61,3 +61,14 @@ body {
     width: 550%;
     margin-right: 10px;
 }
+.estudantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 300px;
+
+}
